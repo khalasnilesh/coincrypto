@@ -1,0 +1,1 @@
+export {userShow} from './userManagement/userAction';

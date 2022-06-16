@@ -1,0 +1,156 @@
+/*Responsive start*/
+
+@media screen and (max-width: 1440px) {
+	.login_wrapper .login_header p {font-size: 18px;}
+	.splash_sec {padding: 50px 0 0;}
+	.splash_sec .splash_content a {font-size: 22px;line-height: 32px;}
+	.join_sec {padding: 50px 0 0;}
+	.join_sec .join_content h3 {font-size: 30px;margin-bottom: 5px;}
+	.join_sec .join_content p {font-size: 18px;}
+	.join_sec .join_content .join_box a .join_txt h3 {font-size: 25px;line-height: 35px;margin-bottom: 5px;}
+	.join_sec .join_content .join_box a .join_txt p {font-size: 18px;}
+	.login_sec {
+	    padding: 50px 0 0;
+	}
+	.login_sec .login_form h3 {font-size: 30px;}
+	.login_sec .login_form form label {font-size: 20px;line-height: 20px;}
+	.login_sec .login_form form input {font-size: 20px;}
+	.login_sec .login_form form .forgot_link a {font-size: 18px;}
+	.login_sec .login_form form button {font-size: 25px;padding: 10px 10px;}
+	.own_sec {
+	    padding: 50px 0;
+	}
+	.own_sec .own_form h3 {
+	    font-size: 30px;
+	}
+	.own_sec .own_form form label {
+	    font-size: 20px;
+	    line-height: 20px;
+	}
+	.own_sec .own_form form input {
+	    font-size: 20px;
+	}
+	.own_sec .own_form form button {
+	    font-size: 25px;
+	    padding: 10px 10px;
+	}
+	.verify_sec {
+	    padding: 50px 0 30px;
+	}
+	.verify_sec .verify_form h3 {font-size: 30px;line-height: 40px;}
+	.verify_sec .verify_form form label {font-size: 25px;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	.login_wrapper .login_header .col-lg-6 {
+		text-align: center !important;
+	}
+	.login_wrapper .login_header p {margin-top: 20px;}
+	.splash_sec .splash_content {width: 80%;margin-top: 20px;}
+	.join_sec .join_content {width: 100%;}
+	.join_sec .join_content .join_box a .join_txt {width: 70%;}
+	.join_sec .join_content .join_box a .join_txt h3 {
+	    font-size: 20px;
+	    line-height: 30px;
+	    margin-bottom: 5px;
+	}
+	.join_sec .join_content .join_box a .join_txt p {
+	    font-size: 16px;
+	    line-height: 26px;
+	}
+	.join_sec .join_content h3 {font-size: 25px;line-height: 35px;}
+	.join_sec .join_content p {font-size: 16px;line-height: 26px;}
+	.join_sec .join_content .join_title {
+	    margin-bottom: 30px;
+	}
+	.verify_sec .verify_form form .login_btn {width: 60%;}
+}
+
+@media screen and (max-width: 767px) {
+	.login_sec .row {
+	    flex-direction: column-reverse;
+	}
+	.login_sec .login_form {margin-bottom: 20px;}
+	.login_wrapper .login_header .col-lg-6 {
+		text-align: center !important;
+	}
+	.login_wrapper .login_header p {
+	    margin-top: 20px;
+	    font-size: 16px;
+	}
+	.login_sec .login_form h3 {
+	    font-size: 25px;
+	}
+	.login_sec .login_form form label {
+	    font-size: 18px;
+	    line-height: 18px;
+	}
+	.login_sec .login_form form input {
+	    font-size: 18px;
+	}
+	.login_sec .login_form form .forgot_link a {
+	    font-size: 16px;
+	}
+	.login_sec .login_form form button {
+	    font-size: 20px;
+	    padding: 10px 10px;
+	}
+	.splash_sec .row {
+	    flex-direction: column-reverse;
+	}
+	.splash_sec .splash_content {width: 100%;}
+	.splash_sec {
+	    padding: 30px 0;
+	}
+	.splash_sec .splash_content a {font-size: 20px;line-height: 30px;margin-bottom: 20px;padding: 10px;}
+	.join_sec .join_content {width: 100%;}
+	.join_sec {
+	    padding: 50px 0;
+	}
+	.join_sec .row {
+	    flex-direction: column-reverse;
+	}
+	.join_sec .join_content .join_box a .join_txt p {font-size: 16px;line-height: 26px;}
+	.join_sec .join_content h3 {
+	    font-size: 22px;
+	    line-height: 32px;
+	    text-align: center;
+	}
+	.join_sec .join_content p {font-size: 16px;line-height:26px;text-align: center;}
+	.join_sec .join_content .join_box a {
+		display: inline-block;
+		width: 100%;
+		text-align: center;
+	}
+	.join_sec .join_content .join_box a .join_txt {width: 100%;}
+	.join_sec .join_content .join_box a img {margin: 0 auto 15px;}
+	.join_sec .join_content .join_box a i {margin-top: 15px;}
+	.join_sec .join_content .join_box a .join_txt h3 {
+	    font-size: 20px;
+	    line-height: 30px;
+	}
+	.own_sec .own_form h3 {
+	    font-size: 25px;
+	}
+	.own_sec .own_form form label {
+	    font-size: 18px;
+	    line-height: 18px;
+	}
+	.own_sec .own_form form input {
+	    font-size: 18px;
+	}
+	.own_sec .own_form form .login_btn {width: 80%;}
+	.verify_sec {
+	    padding: 30px 0 30px;
+	}
+	.verify_sec .verify_form h3 {
+	    font-size: 22px;
+	    line-height: 28px;
+	}
+	.verify_sec .verify_form p {font-size: 18px;}
+	.verify_sec .verify_form span.mobile_number {font-size: 18px;}
+	.verify_sec .verify_form form label {font-size: 22px;}
+	.verify_sec .verify_form form input {width: 50px;height: 50px;}
+	.verify_sec .verify_form form .login_btn {width: 80%;}
+	.own_sec .own_form form .select-styled {font-size: 18px;}
+}
