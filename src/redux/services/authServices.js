@@ -38,9 +38,9 @@ export function checkuserbyemail(email,hmac,clientid)
        })
        .catch(error => {
           console.log((error.message));
-          console.log((error.response.status));
+          console.log((error.status));
           //return  dispatch(redirectToRegister(error))
-          return dispatch(redirectTologIn('true'))
+          return dispatch(redirectTologIn(false))
        })
        //return dispatch(redirectTologIn(true))
        //return dispatch(redirectToRegister(false))
